@@ -17,10 +17,10 @@ Donc en définitive il y aura 3 projets maven.
 # Eureka server
     Maven Dependencies
   
-    - <dependency>
-    - <groupId>org.springframework.cloud</groupId>
-    - <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    - </dependency>
+     <dependency>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+     </dependency>
 
     Configuration
     
@@ -35,15 +35,15 @@ Il ne rest eplus qu'à accéder au server Eureka sur http://localhost:8761
 
 # Hello-service
     
-    - <dependency>
-    - <groupId>org.springframework.boot</groupId>
-    - <artifactId>spring-boot-starter-web</artifactId>
-    - </dependency>
+     <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-web</artifactId>
+     </dependency>
 
-    - <dependency>
-    - <groupId>org.springframework.cloud</groupId>
-    - <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    - </dependency>
+     <dependency>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+     </dependency>
 
 Création de l'entity HelloObject
 création de HelloController
@@ -71,10 +71,10 @@ Après exécution de l'instance "hello-service" nous avons l'application HELLO-S
 
     Maven Dependencies
     
-    -<dependency>
-		-<groupId>org.springframework.boot</groupId>
-		-<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		-</dependency>
+    	<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+	</dependency>
     
 En plus des autres dependencies vue au dessus nous aurons besoin de la dependencies pour intégrer le thymeleaf.
     
