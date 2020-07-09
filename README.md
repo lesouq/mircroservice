@@ -17,7 +17,7 @@ Donc en définitive il y aura 3 projets maven.
 # Eureka server
   # Maven Dependencies
   
-  "<dependency>
+  - <dependency>
        <groupId>org.springframework.cloud</groupId>
        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-   </dependency>"
+    </dependency>
