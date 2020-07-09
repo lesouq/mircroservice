@@ -67,7 +67,16 @@ configuration externe différente de celle du contexte de l'application principa
 Il faut faire figurer l'annotation "@EnableDiscoveryClient"
 Après exécution de l'instance "hello-service" nous avons l'application HELLO-SERVICE qui apparait sur spring Eureka.
 
+# Hello-Web-Client-Service
 
+    Maven Dependencies
+    
+    -<dependency>
+		-<groupId>org.springframework.boot</groupId>
+		-<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		-</dependency>
+    
+En plus des autres dependencies vue au dessus nous aurons besoin de la dependencies pour intégrer le thymeleaf.
     
 
  
