@@ -17,7 +17,15 @@ Donc en définitive il y aura 3 projets maven.
 # Eureka server
     Maven Dependencies
   
-  - dependency
-       groupId>org.springframework.cloud</groupId
-       artifactId>spring-cloud-starter-netflix-eureka-server</artifactId
-    dependency
+  - <dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+
+  Configuration
+    Application.properties
+    
+    - server.port=8761
+    - eureka.client.register-with-eureka=false
+    - eureka.client.fetch-registry=false
+    
