@@ -1,10 +1,10 @@
-package com.microservice.hellowebclientservice;
+package com.microservice.helloeurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloWebClientServiceApplicationTests {
+class HelloEurekaServerMainTests {
 
 	@Test
 	void contextLoads() {
