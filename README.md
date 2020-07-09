@@ -1,4 +1,4 @@
-# microservice
+# Microservice
 Pour développer ses microservices simples nous allons utiliser Spring Cloud, Spring Boot et Eureka Server.
 
 Eureka Server nous servira de registre de services.
@@ -13,3 +13,11 @@ Il y aura trois serveurs distincts:
   - hello-web-client-service
   
 Donc en définitive il y aura 3 projets maven.
+
+# Eureka server
+  # Maven Dependencies
+  
+  "<dependency>
+       <groupId>org.springframework.cloud</groupId>
+       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+   </dependency>"
