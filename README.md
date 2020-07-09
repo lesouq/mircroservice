@@ -23,6 +23,7 @@ Donc en définitive il y aura 3 projets maven.
     - </dependency>
 
     Configuration
+    
       Application.properties
     
     - server.port=8761
@@ -48,13 +49,16 @@ Création de l'entity HelloObject
 création de HelloController
 
     Configuration
+    
       application.properties
+      
     - eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
     - #running for multiple instances
     - server.port=${PORT:0}
     - eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
     
       bootstrap.properties
+      
     - spring.application.name=hello-service
 
 Le fichier bootstrap.properties correspond au contexte de bootstrap (le contexte parent de l'application principale) utilisant une convention de localisation de
