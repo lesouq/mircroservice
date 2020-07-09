@@ -18,6 +18,6 @@ Donc en définitive il y aura 3 projets maven.
     Maven Dependencies
   
   - dependency
-       <groupId>org.springframework.cloud</groupId>
-       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+       groupId>org.springframework.cloud</groupId
+       artifactId>spring-cloud-starter-netflix-eureka-server</artifactId
     dependency
